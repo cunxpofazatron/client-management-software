@@ -238,8 +238,8 @@ if __name__ == "__main__":
         # ВНИМАНИЕ: Замените параметры подключения на свои!
         conn = psycopg2.connect(
             dbname="postgres",
-            user="postgres",
-            password="1357908642",
+            user="",
+            password="",
             host="localhost",
             port="5432"
         )
@@ -259,8 +259,8 @@ if __name__ == "__main__":
         conn.close()
         conn = psycopg2.connect(
             dbname="clients_db",
-            user="postgres",
-            password="1357908642",
+            user="",
+            password="",
             host="localhost",
             port="5432"
         )
